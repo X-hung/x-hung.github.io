@@ -12,7 +12,7 @@
     
     <title>
         
-            标签: 搜索引擎 | 
+            第一讲、互联网发展和体系结构的启示 | 
         
         陋室Louis Labs
     </title>
@@ -36,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="X-hung">
     <meta name="description" itemprop="description" content="努力促进中美文化相互交融而非相互排斥。">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",计算机网络">
 
     <!-- Site Verification -->
     <meta name="google-site-verification" content="q5A-BPAcJjwDv-2wUfWoDhnN_bTb9CTE9ccYf3sVzVg" />
@@ -65,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://www.x-hung.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: 搜索引擎 | 陋室Louis Labs">
+    <meta property="og:title" content="第一讲、互联网发展和体系结构的启示 | 陋室Louis Labs">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="努力促进中美文化相互交融而非相互排斥。">
-    
+    <meta property="og:article:tag" content="计算机网络"> 
 
+    
+        <meta property="article:published_time" content="8月 25, 2017" />
+        <meta property="article:modified_time" content="8月 25, 2017" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="标签: 搜索引擎 | 陋室Louis Labs">
+    <meta name="twitter:title" content="第一讲、互联网发展和体系结构的启示 | 陋室Louis Labs">
     <meta name="twitter:description" content="努力促进中美文化相互交融而非相互排斥。">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,13 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://www.x-hung.com/tags/搜索引擎/index.html" />
+        <link rel="canonical" href="http://www.x-hung.com/2017/08/25/第一讲、互联网发展和体系结构的启示/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "陋室Louis Labs",
+        "logo": "/img/favicon.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "X-hung",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/favicon.png"
+        },
+        "description": "来啦？ 这里有给你的一篇文章！"
+    },
+    "headline": "第一讲、互联网发展和体系结构的启示",
+    "url": "http://www.x-hung.com/2017/08/25/第一讲、互联网发展和体系结构的启示/index.html",
+    "datePublished": "8月 25, 2017",
+    "dateModified": "8月 25, 2017",
+    "description": "努力促进中美文化相互交融而非相互排斥。",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.x-hung.com"
+    }
+}
+</script>
 
 
     
@@ -267,95 +300,234 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-技术与市场需求的结合"><span class="post-toc-number">1.</span> <span class="post-toc-text">1. 技术与市场需求的结合</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-自治系统集合是互联网无限扩展的基础"><span class="post-toc-number">2.</span> <span class="post-toc-text">2. 自治系统集合是互联网无限扩展的基础</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#3-电路交换到分组交换的飞跃"><span class="post-toc-number">3.</span> <span class="post-toc-text">3. 电路交换到分组交换的飞跃</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-1-1＞2"><span class="post-toc-number">4.</span> <span class="post-toc-text">4. 1+1＞2</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#5-分层结构是解决复杂问题的基本方法"><span class="post-toc-number">5.</span> <span class="post-toc-text">5. 分层结构是解决复杂问题的基本方法</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#6-每一层功能实现过程是透明的"><span class="post-toc-number">6.</span> <span class="post-toc-text">6. 每一层功能实现过程是透明的</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#7-开放和包容是TCP-IP成功的关键"><span class="post-toc-number">7.</span> <span class="post-toc-text">7. 开放和包容是TCP/IP成功的关键</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#8-充分利用新技术"><span class="post-toc-number">8.</span> <span class="post-toc-text">8. 充分利用新技术</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#9-自律是网络正常工作的基础"><span class="post-toc-number">9.</span> <span class="post-toc-text">9. 自律是网络正常工作的基础</span></a></li></ol>
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="http://upload-images.jianshu.io/upload_images/2670080-f6920b31b6a930da.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://upload-images.jianshu.io/upload_images/2670080-a219ef6dfba4a0db.jpeg)">
+    
+            <p class="article-headline-p">
+                第一讲、互联网发展和体系结构的启示
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>X-hung</strong>
+        <span>8月 25, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=http://www.x-hung.com/2017/08/25/第一讲、互联网发展和体系结构的启示/">
+    
+</ul>
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/08/18/how-to-use-google/">这里张图请你务必查收！——Google搜索引擎使用小白教程</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/计算机网络/">计算机网络</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            你已经长大成人了，要学会独立解决问题，不要什么事都来问爸爸，爸爸现在教你一招撒手锏，让你从此看片不再求人：
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
 
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/08/18/how-to-use-google/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="X-hung's avatar">
-            </div>
-            <div>
-                <strong>X-hung</strong>
-                <span>8月 18, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/小白专区/">小白专区</a>
-            </span>
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=第一讲、互联网发展和体系结构的启示&url=http://www.x-hung.com/2017/08/25/第一讲、互联网发展和体系结构的启示/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=第一讲、互联网发展和体系结构的启示&url=http://www.x-hung.com/2017/08/25/第一讲、互联网发展和体系结构的启示/index.html&via=X-hung" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://www.x-hung.com/2017/08/25/第一讲、互联网发展和体系结构的启示/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://www.x-hung.com/2017/08/25/第一讲、互联网发展和体系结构的启示/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
 </div>
 
-            
-            
-        
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
+        <p>第一讲、互联网发展和体系结构的启示</p>
+<p>互联网发展过程、互联网技术基础与互联网体系结构可以给我们以下启示。 </p>
+<h3 id="1-技术与市场需求的结合"><a href="#1-技术与市场需求的结合" class="headerlink" title="1. 技术与市场需求的结合"></a>1. 技术与市场需求的结合</h3><p> 互联网发展过程证明，任何事物快速发展的前提是，该事物存在强大的市场需求，且有着实现该事物的技术。而且该事物的深入应用能够导致新的市场需求，新的市场需求进一步促进实现该事物的技术发展。技术与市场需求相互促进，形成良性循环。 </p>
+<h3 id="2-自治系统集合是互联网无限扩展的基础"><a href="#2-自治系统集合是互联网无限扩展的基础" class="headerlink" title="2. 自治系统集合是互联网无限扩展的基础"></a>2. 自治系统集合是互联网无限扩展的基础</h3><p>互联网中不存在全面负责管理终端和服务器的中心结点，每一个终端和服务器都是自治系统，在网络中各司其职，实现自我管理。 每一个终端和服务器都是服务提供者，互联网服务由互联网中终端和服务器提供的服务汇集而成。互联网能够容纳无数个终端和服务器，无数个终端和服务器提供的服务汇集成互联网无所不能的服务。 </p>
+<h3 id="3-电路交换到分组交换的飞跃"><a href="#3-电路交换到分组交换的飞跃" class="headerlink" title="3. 电路交换到分组交换的飞跃"></a>3. 电路交换到分组交换的飞跃</h3><p>计算机技术的发展使得具有存储和处理能力的智能交换设备成为可能，智能交换设备的发展诞生了分组交换技术，分组交换技术是互联网的实现基础。分组交换技术是一种从电路交换技术中衍生出的新技术，这一新技术催生了互联网。 </p>
+<h3 id="4-1-1＞2"><a href="#4-1-1＞2" class="headerlink" title="4. 1+1＞2"></a>4. 1+1＞2</h3><p>嵌入式技术与移动通信技术的发展催生了智能手机，智能手机和互联网的结合产生了移动互联网，移动互联网及大地扩展了互联网应用领域，并可能导致互联网应用发生革命性的变化。 </p>
+<h3 id="5-分层结构是解决复杂问题的基本方法"><a href="#5-分层结构是解决复杂问题的基本方法" class="headerlink" title="5. 分层结构是解决复杂问题的基本方法"></a>5. 分层结构是解决复杂问题的基本方法</h3><p>解决复杂问题的基本方法是将复杂问题层层分解，最后变成功能相对独立和简单的子问题。然后从解决最简单的子问题着手，逐层增加解决的问题的复杂性，最终完全解决复杂问题。用这种复杂问题解决方法解决网络问题产生了网络体系结构，网络体系结构是分层结构。</p>
+<h3 id="6-每一层功能实现过程是透明的"><a href="#6-每一层功能实现过程是透明的" class="headerlink" title="6. 每一层功能实现过程是透明的"></a>6. 每一层功能实现过程是透明的</h3><p>只要下一层提供给本层的服务和本层提供给上一层的服务不变，本层功能的实现过程对其他层是透明的，这意味着每一层可以随着技术的发展，不断改进本层功能的实现过程，而且这种改进对其它层是透明的。这也使得每一层功能的实现技术可以独立发展。 </p>
+<h3 id="7-开放和包容是TCP-IP成功的关键"><a href="#7-开放和包容是TCP-IP成功的关键" class="headerlink" title="7. 开放和包容是TCP/IP成功的关键"></a>7. 开放和包容是TCP/IP成功的关键</h3><p>TCP/IP体系结构成功关键是它认可了各种传输网络并存，并各自发展的事实，并像高级语言和对应的编译系统解决了不同计算机系统之间的程序可移植性一样，用TCP/IP协议族和IP over X（X为某种类型的传输网络）技术解决了不同类型传输网络互连和连接在不同类型传输网络上的两个终端之间的数据传输问题。 </p>
+<h3 id="8-充分利用新技术"><a href="#8-充分利用新技术" class="headerlink" title="8. 充分利用新技术"></a>8. 充分利用新技术</h3><p>当一种新技术出现，及时了解并将新技术应用到其他专业领域可能使这一领域发生革命性的变化，并催生新的产业。当人们将互联网应用到传统产业，已经催生出电子商务、互联网金融、移动支付、基于位置服务等新的产业和新的服务。 </p>
+<h3 id="9-自律是网络正常工作的基础"><a href="#9-自律是网络正常工作的基础" class="headerlink" title="9. 自律是网络正常工作的基础"></a>9. 自律是网络正常工作的基础</h3><p>维持终端间正常通信的基础是协议，协议规范了终端在网络中的行为，因此，网络中每一个终端都遵守协议是网络正常工作的基础，大量网络安全问题都是因为违反协议而造成的。</p>
+<p>原文链接：<a href="http://www.xuetangx.com/courses/course-v1:UST+UST001+sp/courseware/4901aa53fc704550b2fa713b0830cca1/2fc82d7502de4c899b0cfe76c16efb5b/" target="_blank" rel="external">UST001 网络技术与应用（自主模式）- 中国人民解放军 陆军工程大学</a></p>
+<p><a href="http://www.sohu.com/a/162239758_503456" target="_blank" rel="external">什么是陆军工程大学？</a></p>
 
     
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
-</script>
 
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/08/19/deep-thinking-in-binary/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -530,6 +702,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
